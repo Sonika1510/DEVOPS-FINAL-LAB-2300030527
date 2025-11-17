@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: sonika1510/docker-backend:latest
+    image: sonika1510/2300030527-final-backend:latest
     container_name: springboot
     ports:
       - "30032:2000"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: sonika1510/docker-frontend:latest
+    image: sonika1510/2300030527-final-frontend:latest
     container_name: react
     ports:
       - "30031:80"
